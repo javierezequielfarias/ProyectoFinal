@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.colorFondo {
+  background-color: black;
+}
+
+.colorFuente {
+  color: white;
+}
+
+.estilosAncla {
+  list-style: initial;
+  list-style: none;
+}
+.estilosAncla :hover {
+  background-color: rgb(71, 71, 71);
+  border-radius: 15%;
+}
+
+.colorFondoGris {
+  background-color: rgb(71, 71, 71);
+}
+
+.imMain {
+  display: flex;
+  width: 90vw;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.imCardMain {
+  display: flex;
+  height: 55vh;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  filter: grayscale(100%);
+}
+
+.imCardMain:hover {
+  filter: grayscale(0%);
+  transform: translate(5px, 5px) translate(-5px, -5px) scale(1.1);
+  overflow: hidden;
+}
+
+.imagenNosotros {
+  width: 100%;
+  /*display: inline-block;*/
+  padding: 20px;
+}
+
+.imagenLaRaza {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.imagenesLaRaza {
+  width: 200px;
+  display: flex;
+  padding: 5px;
+  object-fit: contain;
+  justify-content: start;
+  align-items: start;
+}
+
+.contenedorIm {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.contenedorIm .imagenes {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.imagenContacto {
+  background-image: url("../assets/img/CONTACTO.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.iconow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.iconow:hover {
+  transform: translate(6px, 6px) translate(-6px, -6px) scale(1.5);
+  overflow: hidden;
+  font-size: 3rem;
+  color: green;
+}
+
+.iconof {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.iconof:hover {
+  transform: translate(6px, 6px) translate(-6px, -6px) scale(1.5);
+  overflow: hidden;
+  font-size: 3rem;
+  color: rgb(35, 35, 248);
+}
+
+.iconoi {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.iconoi:hover {
+  transform: translate(6px, 6px) translate(-6px, -6px) scale(1.5);
+  overflow: hidden;
+  font-size: 3rem;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

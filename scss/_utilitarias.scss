@@ -1,0 +1,70 @@
+.colorFondoGris{
+    background-color:map-get($mapa-colores,color-terciario);
+}
+.imMain{
+    display: flex;
+    width: 90vw;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.imCardMain{
+    display: flex;
+    height: 55vh;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+.imCardMain:hover {
+    filter: grayscale(0%);
+    transform: translate(5px,5px) translate(-5px,-5px) scale(1.1);
+    overflow: hidden;
+}
+.imagenNosotros{
+    width: 100%;
+    /*display: inline-block;*/
+    padding: 20px;
+}
+.imagenLaRaza{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.imagenesLaRaza{
+    width: 200px;
+    display: flex;
+    padding: 5px;
+    object-fit: contain;
+    justify-content: start;
+    align-items: start;
+}
+.contenedorIm{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    .imagenes{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        border: 1px solid map-get($mapa-colores,color-secundario);
+    }
+}
+.imagenContacto{
+    background-image: url("../assets/img/CONTACTO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
